@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solar Explorer 3D App</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark solar-navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Solar Explorer</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="explorer.html?view=sun">Explorer</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <h1>Solar Explorer 3D App</h1>
+          <p>
+            An interactive Web 3D application exploring the Sun, Earth, Moon,
+            and their orbital relationships.
+          </p>
+          <a href="explorer.html?view=sun" class="btn btn-primary btn-lg">Start Exploring</a>
+        </div>
+
+        <div class="col-md-5">
+          <div class="hero-card">
+            <h2>Sun · Earth · Moon</h2>
+            <p>3D Models</p>
+            <p>Orbit Animation</p>
+            <p>Interactive Learning</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container my-5">
+
+    <div class="text-center mb-5">
+      <h2>Explore the Solar System</h2>
+      <p class="section-intro">
+        This project presents three individual celestial models and three system views
+        to explain how the Sun, Earth and Moon interact.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card feature-card">
+          <div class="card-body">
+            <h3>Sun</h3>
+            <p>
+              View the Sun as a glowing 3D model. It acts as the central light source
+              in the solar system scene.
+            </p>
+            <a href="explorer.html?view=sun" class="btn btn-outline-light">View Sun</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card feature-card">
+          <div class="card-body">
+            <h3>Earth</h3>
+            <p>
+              Explore the Earth model with a realistic surface texture showing oceans,
+              continents, deserts and polar regions.
+            </p>
+            <a href="explorer.html?view=earth" class="btn btn-outline-light">View Earth</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card feature-card">
+          <div class="card-body">
+            <h3>Moon</h3>
+            <p>
+              View the Moon model with a rocky surface texture and crater-like visual
+              detail to represent its lunar surface.
+            </p>
+            <a href="explorer.html?view=moon" class="btn btn-outline-light">View Moon</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card feature-card large-card">
+          <div class="card-body">
+            <h3>Sun–Earth System</h3>
+            <p>
+              This system view explains how the Earth's axial tilt and revolution
+              around the Sun are the main reasons for the four seasons.
+            </p>
+            <a href="explorer.html?view=sunEarth" class="btn btn-outline-light">View System</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card feature-card large-card">
+          <div class="card-body">
+            <h3>Earth–Moon System</h3>
+            <p>
+              This system view explains how the Moon orbits the Earth and why people
+              observe different moon phases from Earth.
+            </p>
+            <a href="explorer.html?view=earthMoon" class="btn btn-outline-light">View System</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <div class="card feature-card large-card">
+          <div class="card-body">
+            <h3>Sun–Earth–Moon System</h3>
+            <p>
+              This combined system view presents the Sun, Earth and Moon together,
+              showing the Earth orbiting the Sun while the Moon orbits the Earth.
+            </p>
+            <a href="explorer.html?view=fullSystem" class="btn btn-outline-light">View Full System</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer text-center">
+    <p>© 2026 Solar Explorer 3D App | Web 3D Applications</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
